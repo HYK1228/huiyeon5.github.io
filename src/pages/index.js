@@ -13,7 +13,7 @@ const IndexPage = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    const url = `https://gitconnected.com/v1/portfolio/huiyeon5`;
+    const url = `https://gitconnected.com/v1/portfolio/hyk1228`;
     const fetchData = async () => {
       try {
         const resumeData = await fetch(url);
